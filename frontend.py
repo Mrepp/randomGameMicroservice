@@ -18,7 +18,7 @@ def read_json_file(filename):
 
 #Sends the JSON data to the Flask app and retrieves the response.
 def make_request(json_data):
-    url = "http://127.0.0.1:5000/select_game"  # Replace with your Flask app URL if different
+    url = "http://127.0.0.1:5000/select_game"  
     try:
         response = requests.post(url, json=json_data)
         response.raise_for_status()  # Raise HTTPError for bad responses (4xx and 5xx)
