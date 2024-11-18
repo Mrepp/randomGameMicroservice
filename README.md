@@ -1,9 +1,13 @@
+
 # randomGameMicroservice
 
 # How To Send Data
-
-1. POST api call to http://127.0.0.1:5000/select_game
-2. Send JSON File, like requests.post("http://127.0.0.1:5000/select_game", json=json_data)
+1. Install dependiences, if needed.
+```pip install flask```
+2. Run the program
+```python api.py```
+4. POST api call to http://127.0.0.1:5000/select_game
+5. Send JSON File, like ```requests.post("http://127.0.0.1:5000/select_game", json=json_data)```
 
 Example JSON:
 ```
@@ -63,8 +67,8 @@ Paramters:
 
 # How to Recieve Data
 
-1. Return the responses JSON, like response.json()
-2. Response data : 
+1. Return the responses JSON, like ```response.json()```
+2. Parse Response data : 
 	* When a single game is selected, it will return a single game.
 	```{'selected_game': 'Game B'}```
 	* When find_common_games is false, multiple games will be returned.
@@ -72,4 +76,4 @@ Paramters:
 	
 # UML Diagram
 
-![UML Diagram](https://github.com/Mrepp/randomGameMicroservice/uml.png)
+![UML Diagram](https://github.com/Mrepp/randomGameMicroservice/blob/main/uml.png)
