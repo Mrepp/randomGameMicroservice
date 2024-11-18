@@ -1,0 +1,46 @@
+{
+    "users": [
+      {
+        "user_id": "user_1",
+        "library": [
+          {
+            "appid": 101,
+            "name": "Game A",
+            "tags": ["Action", "Multiplayer"]
+          },
+          {
+            "appid": 102,
+            "name": "Game B",
+            "tags": ["Adventure", "Singleplayer"]
+          }
+        ]
+      },
+      {
+        "user_id": "user_2",
+        "library": [
+          {
+            "appid": 101,
+            "name": "Game A",
+            "tags": ["Action", "Multiplayer"]
+          },
+          {
+            "appid": 103,
+            "name": "Game C",
+            "tags": ["Puzzle", "Singleplayer"]
+          },
+          {
+            "appid": 102,
+            "name": "Game B",
+            "tags": ["Adventure", "Singleplayer"]
+          }
+        ]
+      }
+    ],
+    "filters": {
+      "tags": ["Singleplayer"]
+    },
+    "options": {
+      "no_filter": false,
+      "find_common_games": false
+    }
+  }
